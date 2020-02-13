@@ -5,4 +5,5 @@ cache: yarn
 script:
   - yarn lint
   - yarn test --watch=false --browsers=ChromeHeadless
-  - yarn build --prod
+  - yarn build -- prod
+  - yarn e2e
